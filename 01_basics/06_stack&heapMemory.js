@@ -6,7 +6,7 @@
 let myYoutubename= "shreya";
 let anothername= myYoutubename;
 console.log(anothername); //output=> shreya
-
+ 
 //now here a copy of myYoutubename's value is stored in the next stack with variable name anothername
 
 anothername="rani"
