@@ -41,3 +41,18 @@ Yes — it's non-primitive, but behaves like a primitive in terms of immutabilit
 
 let user= new String("shreya"); // String constructor
 //when you write a String object (created with new String("text")) to the console in JavaScript, you’ll notice many more options or properties than with a primitive string.
+
+//STRING FAMOUS METHODS (WILL ADD MORE )
+const mess = new String('shreya is a good girl');
+
+console.log(mess.length);          //output=> 21 (including spaces)
+console.log(mess.toUpperCase());   //output=> SHREYA IS A GOOD GIRL
+console.log(mess[5]);              //output=> a (indexing starts from 0)
+console.log(mess.charAt(2));       //output=> r
+console.log(mess.indexOf('r'));    //output=> 2(mess.indexOf("r"),the double quotes same as single)
+console.log(mess.substring(0,6));  //output=> shreya(6 (endIndex) is excluded, in place of 0(startindex),-ve values are ignored unlike slice method, it is considered 0)
+console.log(mess.slice(-8,4));
+console.log(mess.trim()); //output=> same , it just terminates start and end white spaces & line terminators
+console.log(mess.replace("r","3")); //output=> sh3eya is a good girl , .replaceAll replaces all Rs
+console.log(mess.includes("is")); //true
+console.log(mess.split(" ")); // ['shreya','is','a','good','girl']
