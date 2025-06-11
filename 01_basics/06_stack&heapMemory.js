@@ -4,7 +4,7 @@
 //Stored directly in memory.When you assign them to another variable, a copy is made.Changing the new variable does not affect the original.
 
 let myYoutubename= "shreya";
-let anothername= user1;
+let anothername= myYoutubename;
 console.log(anothername); //output=> shreya
 
 //now here a copy of myYoutubename's value is stored in the next stack with variable name anothername
